@@ -3,7 +3,15 @@ import nasa from './Media/nasa1.jpeg'
 
 function App() {
   return (
-    <img src={nasa} alt="" />
+    <>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    <img src={nasa} alt=""/>
+    </>
   );
 }
 
