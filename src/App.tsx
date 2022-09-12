@@ -28,10 +28,10 @@ function App() {
 //   );
 // });
 const [c2, set2] = React.useState(false);
-const allow2 = () => {setTimeout(sett2,3000)}
+const allow2 = () => {setTimeout(sett2,5000)}
 const sett2 = () => {set2(true)}
 const [c3, set3] = React.useState(false);
-const allow3 = () => {setTimeout(sett3,6000)}
+const allow3 = () => {setTimeout(sett3,5000)}
 const sett3 = () => {set3(true)}
 
 
@@ -41,10 +41,10 @@ return(
       <R1 allow2={allow2}/>
     {/* </Suspense> */}
     {/* <Suspense fallback={<div>Loading mano...</div>}> */}
-      <R2 c2={c2} allow3={allow3}/>
+      {c2 ? <R2 allow3={allow3}/> : null}
     {/* </Suspense> */}
     {/* <Suspense fallback={<div>Loading mano...</div>}> */}
-      <R3 c3={c3}/>
+      {c3 ? <R3/> : null}
     {/* </Suspense> */}
     </>
  )
