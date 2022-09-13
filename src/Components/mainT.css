@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: white;
+}
+
+.aT15{
+    animation: typewriterTitle 2500ms steps(44) 1s 1 normal both;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5.75vmin;
+    font-weight: 700;
+    letter-spacing: 5px;
+    overflow: hidden;
+    white-space: nowrap; 
+    line-height: 10vmin;
+    position: absolute;
+    text-align: center;
+  }
+  
+  @keyframes typewriterTitle{
+    0%{width: 0;}
+    79.9%{color:white;}
+    80%{color:black;}
+    100%{width: 100vw; color:black;}
+  }
+
+  @keyframes typewriterTitle2{
+    0%{width: 0;}
+    100%{width: 100vw; color:white;}
+  }
