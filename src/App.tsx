@@ -1,3 +1,3 @@
-import MT from "./Components/mainT";
+import MT from "./Pages/counter";
 const App = () => {return(<><MT/></>)}; 
 export default App
