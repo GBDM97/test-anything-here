@@ -16,7 +16,7 @@ return(
 
 <>
     <button onClick={more}>&#8593;</button>
-    <p>{current}</p>
+    <p>{current}/300</p>
     <button onClick={less}>&#8595;</button>
 </>
 
