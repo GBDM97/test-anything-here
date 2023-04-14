@@ -1,3 +1,3 @@
-import MT from "./Pages/counter";
-const App = () => {return(<><MT/></>)}; 
+import Content from "./codeSignal/XTag";
+const App = () => {return(<><Content/></>)}; 
 export default App
